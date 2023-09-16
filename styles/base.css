@@ -1,9 +1,14 @@
+html {
+    background-color: #6F8FA3;
+}
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #142E54;
+    background-color: #032336;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .profile-picture {
@@ -13,21 +18,22 @@ header {
 nav {
     display: grid;
     justify-content: center;
-    background-color: black;
+    background-color: #113951;
 }
 
 a {
     text-decoration: none;
-    color: white
+    color: rgb(255, 255, 255)
 }
 
 ul a {
-    list-style: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 h2 {
     text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -36,26 +42,27 @@ h3 {
     align-items: center;
     text-align: center;
     height: 50px;
-    background-color: #728CA6;
+    background-color: #032336;
+    color: white;
     border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .card {
     display: grid;
-    background-color: rgb(245, 245, 245);
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .information-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 footer {
-    background-color: #728CA6;
+    background-color: #032336;
     display: grid;
     justify-items: center;
     color: white;
