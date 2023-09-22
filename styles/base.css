@@ -26,9 +26,9 @@ a {
     color: white
 }
 
-ul a {
+/* ul a {
     color: white;
-}
+} */
 
 h2 {
     text-align: center;
@@ -71,4 +71,5 @@ footer {
 
 .flag {
     display: flex;
+    width: 80px;
 }
