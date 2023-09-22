@@ -1,5 +1,5 @@
 html {
-    background-color: #6F8FA3;
+    background-color: #113951;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 nav {
     display: grid;
     justify-content: center;
-    background-color: #113951;
+    background-color: #010B16;
 }
 
 a {
