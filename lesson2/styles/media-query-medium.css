@@ -1,82 +1,12 @@
 @media only screen and (min-width: 768px) {
-    html {
-        background-color: #0D214F;
-    }
-
-    .head-container {
-        width: 100%;
-        border-style: solid;
-        text-align: center;
-        font-family: "Roboto";
-        background-color: #020F2C;
-    }
-
-    header h1 {
-        color: white;
-    }
-
-    header h2 {
-        color: white;
-    }
-
     main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
         margin: 1rem;
         gap: 1rem;
-
     }
 
-    img {
-        width: auto;
-        margin: 10px;
+    .grid-item:last-child {
+        grid-column: span 2;
     }
-
-    .section-container {
-        border-style: solid;
-        font-family: "Roboto";
-        width: auto;
-        background-color: #d1d1d1;
-        color: black;
-    }
-
-    h1 {
-        margin: 0;
-        padding: 10px;
-    }
-
-    h2 {
-        margin: 10px;
-    }
-
-    a {
-        color: black;
-        margin: 0 10px;
-    }
-
-    .grid-box {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .box {
-        background-color: #020F2C;
-        color: white;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    footer {
-        text-align: center;
-        border-style: solid;
-        background-color: #020F2C;
-    }
-
-    footer p {
-        color: white;
-    }
-
 }
