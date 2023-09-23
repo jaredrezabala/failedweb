@@ -26,14 +26,16 @@ nav {
 li,
 a,
 h3,
-p {
+p,
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: small;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 
 a:hover {
@@ -42,7 +44,7 @@ a:hover {
 
 h1 {
     text-align: center;
-    color: white;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,15 +55,16 @@ h3 {
     text-align: center;
     height: 50px;
     background-color: #032336;
-    color: white;
+    /* color: white; */
     border-radius: 15px;
 
 }
 
+/* 
 .card {
-    /* display: grid; */
+    display: grid;
     color: white;
-}
+} */
 
 .information-container {
     display: flex;

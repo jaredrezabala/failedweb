@@ -31,11 +31,11 @@
     h3,
     p {
         font-family: 'Martian Mono', monospace;
+        font-size: large;
 
     }
 
     h1 {
-        text-align: center;
-        color: white;
+        font-size: 40px;
     }
 }
