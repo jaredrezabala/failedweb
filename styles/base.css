@@ -35,7 +35,7 @@ h1 {
 
 a {
     text-decoration: none;
-    /* color: white; */
+
 }
 
 a:hover {
@@ -55,16 +55,10 @@ h3 {
     text-align: center;
     height: 50px;
     background-color: #032336;
-    /* color: white; */
     border-radius: 15px;
 
 }
 
-/* 
-.card {
-    display: grid;
-    color: white;
-} */
 
 .information-container {
     display: flex;

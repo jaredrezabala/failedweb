@@ -1,11 +1,4 @@
 @media screen and (min-width: 768px) {
-
-    /* main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 1rem;
-        gap: 1rem;
-    } */
     .layout {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -14,7 +7,5 @@
 
     .grid-item:last-child {
         grid-column: span 2;
-        /* width: auto;
-        height: auto; */
     }
 }
