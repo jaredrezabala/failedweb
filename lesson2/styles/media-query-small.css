@@ -18,14 +18,14 @@ header h2 {
     color: white;
 }
 
-main {
+/* main {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: repeat(3, 1fr);
     margin: 1rem;
     gap: 1rem;
 
-}
+} */
 
 img {
     width: 100%;
@@ -38,6 +38,7 @@ img {
     width: auto;
     background-color: #d1d1d1;
     color: black;
+    margin: 1rem;
 }
 
 h1 {
