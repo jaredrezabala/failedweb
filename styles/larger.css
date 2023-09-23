@@ -33,4 +33,9 @@
         font-family: 'Martian Mono', monospace;
 
     }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
 }
