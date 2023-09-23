@@ -1,0 +1,36 @@
+@media screen and (min-width:640px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 10px;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    a {
+        padding: 1rem;
+        font-size: medium;
+    }
+
+    ul a {
+        padding: 1rem;
+    }
+
+    ul li {
+        padding: 1rem;
+    }
+
+    li,
+    a,
+    h1,
+    h3,
+    p {
+        font-family: 'Martian Mono', monospace;
+
+    }
+}
