@@ -151,3 +151,17 @@ footer {
     display: flex;
     width: 80px;
 }
+
+.map {
+    padding-bottom: 70%;
+    position: relative;
+    margin: 0 20px;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

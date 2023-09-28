@@ -70,4 +70,19 @@
     h2 {
         font-size: 40px;
     }
+
+    .map {
+        /* padding-bottom: 50%; */
+        position: relative;
+        margin: 0 50px;
+        padding: 200px;
+    }
+
+    .map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
 }
