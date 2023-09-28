@@ -55,6 +55,7 @@
     li,
     a,
     h1,
+    h2,
     h3,
     p {
         font-family: 'Martian Mono', monospace;
@@ -63,6 +64,10 @@
     }
 
     h1 {
+        font-size: 40px;
+    }
+
+    h2 {
         font-size: 40px;
     }
 }
