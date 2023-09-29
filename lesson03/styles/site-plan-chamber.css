@@ -53,6 +53,10 @@ li {
     font-family: 'Montserrat', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 .colors {
     width: 100%;
     min-width: 350px;
