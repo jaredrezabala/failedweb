@@ -36,10 +36,12 @@ header {
     padding: 1em;
     text-align: center;
     background-color: #344E41;
+    color: white;
 }
 
 header>h1,
-header>h2 {
+header>h2,
+header>h3 {
     color: white;
     font-family: "Lora", serif;
 }
