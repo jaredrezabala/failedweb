@@ -1,0 +1,80 @@
+@media screen and (min-width:640px) {
+    header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+    }
+
+    #menu {
+        display: none;
+
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation li a {
+        padding: 0;
+    }
+
+    .navigation li a:hover {
+        padding: 10px;
+    }
+
+    a {
+        padding: 1rem;
+        font-size: medium;
+    }
+
+    ul a {
+        padding: 1rem;
+    }
+
+    ul li {
+        padding: 1rem;
+    }
+
+    .hero-image {
+        margin: 10px 0;
+        width: 40%;
+    }
+
+    .section1 {
+        margin: 0 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: brown;
+
+    }
+
+    .container1 {
+        margin-left: 100px;
+    }
+
+
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        margin-top: 20px;
+    }
+
+    .events,
+    .weather-card,
+    .spotlights {
+        padding: 150px;
+        width: 300px;
+        height: 200px;
+    }
+}

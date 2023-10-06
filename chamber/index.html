@@ -21,35 +21,52 @@
 
 <body>
     <header>
-        <img src="images/chamber-logo.png" alt="logo">
+        <img class="logo" src="images/chamber-logo.png" alt="website logo">
         <h1>Buena Fe Chamber of Commerce</h1>
     </header>
+
     <nav>
-        <div class="menu">
-            <a href="#">Page1</a>
-            <a href="#">Page2</a>
-            <a href="#">Page3</a>
-        </div>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+
     </nav>
     <main>
-        <section>
-            <img src="images/Buena-fe.jpg" alt="Buena Fe City">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, assumenda.</p>
-            <button>Join Us</button>
+
+        <section class="section1">
+            <img class="hero-image" src="images/buena-fe.jpg" alt="Buena Fe City">
+            <div class="container1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, assumenda.</p>
+                <button>Join Us</button>
+            </div>
+
         </section>
-        <section>
-            <h1>Events</h1>
-        </section>
-        <section>
-            <h1>Weather</h1>
-        </section>
-        <section>
-            <h1>Spotlights</h1>
-        </section>
+        <div class="grid">
+            <div class="events">
+                <section>
+                    <h1>Events</h1>
+                </section>
+            </div>
+            <div class="weather-card">
+                <section>
+                    <h1>Weather</h1>
+                </section>
+            </div>
+            <section class="spotlights">
+                <h1>Spotlights</h1>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>Jared Rezabala | WD230 Project | Last Modified date</p>
+        <p id="copyright"></p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+
 </body>
 
 </html>
