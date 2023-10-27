@@ -113,6 +113,15 @@ button {
     padding: 1rem;
     margin: 10px 0;
     border-style: solid;
+
+}
+
+
+.spot1,
+.spot2 {
+    margin: 0;
+    padding: 50px;
+    text-align: center;
 }
 
 footer p {

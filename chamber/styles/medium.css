@@ -44,7 +44,7 @@
 
     .hero-image {
         margin: 10px 0;
-        width: 40%;
+        width: 70%;
     }
 
     .section1 {
@@ -52,7 +52,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
+        padding: 100px;
         background-color: brown;
 
     }
@@ -65,16 +65,25 @@
     .grid {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr;
         justify-items: center;
         margin-top: 20px;
     }
 
+    .grid-item:last-child {
+        grid-column: span 2;
+    }
+
+    /* .spot1,
+    .spot2 {
+        padding: 150px;
+    } */
+
     .events,
     .weather-card,
     .spotlights {
-        padding: 150px;
-        width: 300px;
+        padding: 90px;
+        width: 200px;
         height: 200px;
     }
 }
