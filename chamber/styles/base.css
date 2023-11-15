@@ -1,13 +1,26 @@
+html {
+    /* background-color: #2D4E00; */
+    max-width: 100%;
+}
+
 header {
     width: 100%;
     justify-content: center;
 }
 
 .logo {
-    display: block;
+    /* display: flex; */
     margin-left: auto;
     margin-right: auto;
+    /* border-style: solid; */
+    width: 150px;
 }
+
+/* #title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin: 0;
+} */
 
 header h1 {
     text-align: center;
@@ -41,8 +54,8 @@ nav {
     display: flex;
     flex-direction: column;
     list-style: none;
-    background-color: black;
-    color: #fff;
+    /* background-color: black; */
+    /* color: #fff; */
     margin: 0;
     padding: 0;
 }
@@ -56,14 +69,16 @@ nav {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: black;
+    /* font-size: 25px; */
+    /* color: #fff; */
 }
 
-.navigation li a:hover {
+/* .navigation li a:hover {
     background-color: #113951;
     color: white;
 
-}
+} */
 
 .open li {
     display: block;
@@ -76,6 +91,24 @@ nav {
 
 main {
     width: auto;
+}
+
+hr {
+    background-color: #C9EA9C;
+}
+
+/* .hero-div {
+    width: 100%;
+} */
+.hero-title {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#horizontal-line {
+    width: 50%;
+    height: 2px;
+    background-color: #C9EA9C;
 }
 
 .hero-image {
@@ -97,16 +130,42 @@ button {
 }
 
 .events {
-    padding: 1em;
+    width: 100%;
+    height: auto;
+    /* padding: 1em; */
     margin: 10px 0;
     justify-items: center;
     border-style: solid;
 }
 
-.weather-card {
-    padding: 1rem;
-    margin: 10px 0;
+.banner {
+    width: 90px;
     border-style: solid;
+    border-color: red;
+    color: red;
+}
+
+.banner p {
+    margin: 0;
+}
+
+.events-img {
+    width: 100%;
+}
+
+.weather-card {
+    width: 100%;
+    height: auto;
+    /* padding: 1em; */
+    margin: 10px 0;
+    justify-items: center;
+    border-style: solid;
+}
+
+.weather-img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .spotlights {

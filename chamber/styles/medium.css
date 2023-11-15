@@ -1,4 +1,8 @@
 @media screen and (min-width:640px) {
+    html {
+        justify-items: center;
+    }
+
     header {
         width: 100%;
         display: grid;
@@ -13,7 +17,7 @@
 
     .navigation {
         flex-direction: row;
-        justify-content: space-around;
+        /* justify-content: space-around; */
 
     }
 
@@ -42,43 +46,77 @@
         padding: 1rem;
     }
 
-    .hero-image {
-        margin: 10px 0;
-        width: 70%;
+    .hero-title {
+        font-size: 80px;
     }
 
-    .section1 {
-        margin: 0 70px;
+    .hero-div {
+        width: 100%;
+        height: auto;
+        /* margin: 20px; */
+
+    }
+
+    .hero-image {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* .section1 { */
+    /* margin: 0 70px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 100px;
-        background-color: brown;
+        padding: 100px; */
+    /* background-color: brown; */
 
-    }
+    /* } */
 
     .container1 {
         margin-left: 100px;
     }
 
+    .weather-card {
+        width: 100%;
+        height: auto;
+        /* padding: 1em; */
+        /* margin: 10px 0; */
+        justify-items: center;
+        border-style: solid;
+    }
+
+    /* .weather.img {
+        width: 80%;
+        he
+    } */
 
     .grid {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        height: 100%;
+        display: flex;
+        margin: 10px auto;
+        /* margin: 0 10%; */
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        /* justify-items: center; */
+        justify-content: center;
         margin-top: 20px;
     }
 
-    .grid-item:last-child {
-        grid-column: span 2;
+    .spot-grid {
+        display: flex;
+        justify-content: center;
     }
+
+    /* .grid-item:last-child {
+        grid-column: span 2;
+    } */
 
     /* .spot1,
     .spot2 {
         padding: 150px;
     } */
-
+    /* 
     .events,
     .weather-card,
     .spotlights {
@@ -86,4 +124,6 @@
         width: 200px;
         height: 200px;
     }
+
+*/
 }
