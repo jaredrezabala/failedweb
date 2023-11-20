@@ -77,20 +77,20 @@
     .grid {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         margin-top: 20px;
     }
 
-    .grid-item:last-child {
+    /* .grid-item:last-child {
         grid-column: 3/3;
-    }
+    } */
 
-    .events,
+    /* .events,
     .weather-card,
     .spotlights {
         padding: 150px;
         width: 300px;
         height: 200px;
-    }
+    } */
 }
