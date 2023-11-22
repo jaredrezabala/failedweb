@@ -17,7 +17,6 @@
 
     .navigation {
         flex-direction: row;
-        /* justify-content: space-around; */
 
     }
 
@@ -62,68 +61,82 @@
         padding: 0;
     }
 
-    /* .section1 { */
-    /* margin: 0 70px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 100px; */
-    /* background-color: brown; */
 
-    /* } */
 
     .container1 {
         margin-left: 100px;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        /* Espacio entre las celdas */
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .events {
+        margin: 20px;
+        height: auto;
+    }
+
+    .events-img {
+        height: 300px;
+    }
+
     .weather-card {
         width: 100%;
         height: auto;
-        /* padding: 1em; */
-        /* margin: 10px 0; */
         justify-items: center;
         border-style: solid;
     }
 
-    /* .weather.img {
-        width: 80%;
-        he
-    } */
+    .spot-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .spotlights {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    /* .weather-card {
+        width: 100%;
+        height: auto;
+
+        justify-items: center;
+        border-style: solid;
+    }
+
 
     .grid {
         width: 100%;
-        height: 100%;
-        display: flex;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
         margin: 10px auto;
-        /* margin: 0 10%; */
-        /* display: grid;
-        grid-template-columns: 1fr 1fr; */
-        /* justify-items: center; */
         justify-content: center;
         margin-top: 20px;
+    }
+
+    .events {
+        margin: 20px;
+        height: auto;
+    }
+
+    .events-img {
+        height: 300px;
     }
 
     .spot-grid {
         display: flex;
         justify-content: center;
-    }
-
-    /* .grid-item:last-child {
-        grid-column: span 2;
     } */
 
-    /* .spot1,
-    .spot2 {
-        padding: 150px;
-    } */
-    /* 
-    .events,
-    .weather-card,
-    .spotlights {
-        padding: 90px;
-        width: 200px;
-        height: 200px;
-    }
 
-*/
 }

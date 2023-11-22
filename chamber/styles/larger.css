@@ -4,7 +4,6 @@
         display: grid;
         grid-template-columns: 20% 80%;
         align-items: center;
-        /* background-color: #9AC361; */
     }
 
     #menu {
@@ -12,11 +11,6 @@
 
     }
 
-    /* .navigation {
-        flex-direction: row;
-        justify-content: space-around;
-
-    } */
 
     .navigation li {
         display: block;
@@ -28,9 +22,7 @@
         font-size: 25px;
     }
 
-    /* .navigation li a:hover {
-        padding: 10px;
-    } */
+
 
     a {
         padding: 1rem;
@@ -48,49 +40,24 @@
     .hero-div {
         width: 100%;
         height: auto;
-        /* margin: 20px; */
+
 
     }
 
     .hero-image {
-        /* margin: 20px; */
         width: 95%;
-        /* height: auto; */
         padding: 0;
+        height: 700px;
     }
-
-    /* .section1 { */
-    /* margin: 0 70px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px; */
-    /* background-color: #9AC361; */
-
-    /* } */
 
     .container1 {
         margin-left: 100px;
     }
 
-
     .grid {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         margin-top: 20px;
     }
 
-    /* .grid-item:last-child {
-        grid-column: 3/3;
-    } */
 
-    /* .events,
-    .weather-card,
-    .spotlights {
-        padding: 150px;
-        width: 300px;
-        height: 200px;
-    } */
 }
